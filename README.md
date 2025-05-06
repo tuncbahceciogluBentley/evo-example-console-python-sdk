@@ -1,7 +1,7 @@
 # Sample for Seequent EVO public Python SDK
 
 ## About uv
-This project uses uv. 
+This project uses uv.
 
 [uv](https://github.com/astral-sh/uv) is a fast Python package installer and resolver, written in Rust. It's designed to be a drop-in replacement for pip and can significantly speed up Python package installation.
 
@@ -9,7 +9,7 @@ After installing uv use `uv run main.py` to run the script.
 
 ## Usage
 
-This script provides a command-line interface to interact with Seequent EVO API. It requires a valid client ID to authenticate.
+This script provides a command-line interface to interact with Seequent EVO API. It requires a valid client ID to authenticate. See  See https://developer.seequent.com/docs/guides/getting-started/apps-and-tokens.
 
 Basic syntax:
 ```
