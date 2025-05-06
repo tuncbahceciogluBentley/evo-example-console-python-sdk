@@ -18,24 +18,24 @@ uv run main.py [MODE] --client-id YOUR_CLIENT_ID [OPTIONS]
 
 ### Modes (required, choose one):
 
-- `--instances`: Show EVO instances for each organization
+- `--hubs`: Show EVO hubs for each organization
   ```
-  uv run main.py --instances --client-id YOUR_CLIENT_ID
+  uv run main.py --hubs --client-id YOUR_CLIENT_ID
   ```
 
-- `--workspaces`: Show workspaces for a specific organization and instance (hub) id.
+- `--workspaces`: Show workspaces for a specific organization and hub (hub) id.
   ```
-  uv run main.py --workspaces --org-id ORGANIZATION_ID --instance-url INSTANCE_URL --client-id YOUR_CLIENT_ID
+  uv run main.py --workspaces --org-id ORGANIZATION_ID --hub-url hub_URL --client-id YOUR_CLIENT_ID
   ```
 
 - `--files`: Show files for a specific workspace
   ```
-  uv run main.py --files --workspace-id WORKSPACE_ID --instance-url INSTANCE_URL --org-id ORGANIZATION_ID --client-id YOUR_CLIENT_ID
+  uv run main.py --files --workspace-id WORKSPACE_ID --hub-url hub_URL --org-id ORGANIZATION_ID --client-id YOUR_CLIENT_ID
   ```
 
 - `--objects`: Show objects for a specific workspace
   ```
-  uv run main.py --objects --workspace-id WORKSPACE_ID --instance-url INSTANCE_URL --org-id ORGANIZATION_ID --client-id YOUR_CLIENT_ID
+  uv run main.py --objects --workspace-id WORKSPACE_ID --hub-url hub_URL --org-id ORGANIZATION_ID --client-id YOUR_CLIENT_ID
   ```
 
 ## Client Id
